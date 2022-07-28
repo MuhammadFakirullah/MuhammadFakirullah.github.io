@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script type="text/javascript" src="styles.js"></script>
+        <title>Create new account</title>
+    </head>
+    <body>
+        <div class="formtofill">
+            <div class="header">
+                <ul>
+                    <li><a><img src="free fire.png" alt="" width="100px" height="70px"></a></li>
+                    <li><a><h2>Create your account now</h2></a></li>
+                </ul>
+            </div>
+            <form>
+                <div class="row">
+                    <div class="column">
+                        <div class="input-group">
+                            <input type="text" class="input" required>
+                            <label class="placeholder">First name</label>    
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="input-group">
+                            <input type="text" class="input" required>
+                            <label class="placeholder">Last name</label>    
+                        </div>
+                    </div>
+                </div><br><br>
+                <div>
+                    <div style="padding:35px;">
+                        <div class="input-group1">
+                            <input type="text" id="input1" class="input1" required>
+                            <label class="placeholder1">Username</label>    
+                        </div>
+                        <p style="font-size:12px;color:#9198a3;">You can use letters, numbers, & periods</p>
+                        <p style="color:#2d87e0"><b><a style="text-decoration:none;color:#3072db;" href="#">Use my current email address instead</a></b></p><br>
+                        <div class="input-group2">
+                            <input type="password" id="password" class="input2" required>
+                            <label class="placeholder2">Password</label>
+                            <p style="font-size:12px;color:#9198a3;">Use 8 or more characters with a mix of letters, numbers & symbols</p>
+                        </div><br>
+                        <div class="input-group2">
+                            <input type="password" id="repassword" class="input2" required>
+                            <label class="placeholder2">Confirm password</label>
+                            <p style="font-size:12px;color:#9198a3;">Confirm password must be same as your password</p>    
+                        </div><br>
+                        <input type="checkbox" style="width:15px;height:15px;" onclick="myFunction()">&nbsp;&nbsp;Show password<br><br><br>
+                        <b><a class="a" href="signIn.html" style="text-decoration: none;color:#3072db;transition-duration: 0.4s;cursor: pointer;">Sign in instead</a></b>&nbsp;
+                        <button class="button button2" style="float:right;">Next</button>
+                    </div>
+                </div>
+            </form><br><br>
+            <div>
+                <select id="cars">
+                    <option value="volvo">English (United States)</option>
+                    <option value="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                </select>
+                  <a href="#terms" style="text-decoration:none;float:right;font-size:13px;color:#666;">&nbsp;&nbsp;&nbsp;Terms</a>
+                  <a href="#privacy" style="text-decoration:none;float:right;font-size:13px;color:#666;">&nbsp;&nbsp;&nbsp;Privacy</a>
+                  <a href="#help" style="text-decoration:none;float:right;font-size:13px;color:#666;">&nbsp;&nbsp;&nbsp;Help</a>
+            </div><br>
+        </div>
+    </body>
+</html>
